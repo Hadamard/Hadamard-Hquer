@@ -1,1 +1,1 @@
-# Hadamard-Hquer
+# Hadamard-Ħ
