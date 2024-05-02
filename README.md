@@ -27,3 +27,12 @@ The hash function SHA-256 is quantum-safe, which means that there is no efficien
 While there is a known quantum algorithm, Grover’s algorithm, which performs “quantum search” over a black-box function, SHA-256 has proven to be secure against both collision and preimage attacks. In fact, Grover’s algorithm can only reduce 𝑁 queries of the black-box function, SHA in this case, to √N, so instead of searching 2^256 possibilities, we only have to search 2^128, which is even slower than algorithms like van Oorschot–Wiener algorithm for generic collision search and Oechslin's rainbow tables for generic pre-image search on classical computers. 
 
 # Hadamard's solution
+
+
+* Quantum-Secure Key Establishment: Employ Quantum Key Distribution (QKD) between the communicating parties to establish a quantum-secure key. QKD utilizes quantum mechanical principles to create secure keys between sender and receiver, ensuring resistance against potential eavesdropping or manipulation by adversaries.
+
+* Key Exchange and Authentication: Utilize the quantum-secure key for authentication and signing purposes. Following the establishment of the quantum-secure key, it is used to encrypt messages, preserving confidentiality and restricting access solely to the intended recipient.
+
+* Signing of Encrypted Messages: Upon encryption of the message using the quantum-secure key, the sender employs their private key to sign the encrypted message. However, as the message is already encrypted, it remains decipherable solely by the intended recipient, ensuring confidentiality and integrity during transmission.
+
+* Decryption and Verification: The recipient decrypts the received message using the established quantum-secure key and subsequently verifies the signature to ascertain the authenticity of the message and its origin.
