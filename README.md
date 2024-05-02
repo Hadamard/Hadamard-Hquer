@@ -28,6 +28,7 @@ While there is a known quantum algorithm, Grover’s algorithm, which performs �
 
 # Hadamard's solution
 
+The above-mentioned vulnerability of signing is addressed by Hadamard Ħ and has been used to design an unbreakable quantum-resistant protocol for the signer.
 
 * Quantum-Secure Key Establishment: Employ Quantum Key Distribution (QKD) between the communicating parties to establish a quantum-secure key. QKD utilizes quantum mechanical principles to create secure keys between sender and receiver, ensuring resistance against potential eavesdropping or manipulation by adversaries.
 
