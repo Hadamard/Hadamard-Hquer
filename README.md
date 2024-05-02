@@ -38,3 +38,5 @@ The above-mentioned vulnerability of signing is addressed by Hadamard-Ħ and has
 
 * Decryption and Verification: The recipient decrypts the received transaction using the jointly generated quantum-secure key, and then verifies the signature to ensure that the transaction is authentic and indeed originates from the specified sender.
 
+Hadamard Ħ is the first developed smart contract that provides a quantum infrastructure and makes Ethereum's security quantum-resistant for a long time.
+
