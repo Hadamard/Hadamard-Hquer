@@ -6,7 +6,7 @@
 # How would Quantum Supremacy affect Ethereum?
 
 
-    SA is an algorithm used for encryption and based upon the hardness of solving the factorisation problem (finding the factors of a large composite number is difficult: when the integers are prime numbers) 
+* SA is an algorithm used for encryption and based upon the hardness of solving the factorisation problem (finding the factors of a large composite number is difficult: when the integers are prime numbers) 
 
     ECDSA: Is a signature scheme based upon the hardness of solving the discrete logarithm problem.
 
