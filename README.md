@@ -30,10 +30,11 @@ While there is a known quantum algorithm, Grover’s algorithm, which performs �
 
 The above-mentioned vulnerability of signing is addressed by Hadamard-Ħ and has been used to design an unbreakable quantum-resistant protocol for the signer.
 
-* Quantum-Secure Key Establishment: Employ Quantum Key Distribution (QKD) between the communicating parties to establish a quantum-secure key. QKD utilizes quantum mechanical principles to create secure keys between sender and receiver, ensuring resistance against potential eavesdropping or manipulation by adversaries.
+* Quantum-Secure Key Generation: The involved parties, such as an Ethereum transaction sender and a node in the Ethereum network, utilize Quantum Key Distribution (QKD) to generate a quantum-secure key. By leveraging principles of quantum mechanics, a key is generated that cannot be compromised even by a potential quantum computer. This key is securely exchanged between the parties, establishing a basis for a secure communication channel.
 
-* Key Exchange and Authentication: Utilize the quantum-secure key for authentication and signing purposes. Following the establishment of the quantum-secure key, it is used to encrypt messages, preserving confidentiality and restricting access solely to the intended recipient.
+* Key Exchange and Authentication: The generated quantum-secure key is used to sign transactions and authenticate the identities of the involved parties. Before a transaction is sent, it is encrypted with the jointly generated key to ensure its confidentiality and to ensure that it can only be read by the authorized parties.
 
-* Signing of Encrypted Messages: Upon encryption of the message using the quantum-secure key, the sender employs their private key to sign the encrypted message. However, as the message is already encrypted, it remains decipherable solely by the intended recipient, ensuring confidentiality and integrity during transmission.
+* Signing the Encrypted Transaction: After encryption, the sender signs the transaction with their private key, similar to conventional signature methods. However, since the transaction is already encrypted, it can only be decrypted and read by the intended recipient.
 
-* Decryption and Verification: The recipient decrypts the received message using the established quantum-secure key and subsequently verifies the signature to ascertain the authenticity of the message and its origin.
+* Decryption and Verification: The recipient decrypts the received transaction using the jointly generated quantum-secure key, and then verifies the signature to ensure that the transaction is authentic and indeed originates from the specified sender.
+
